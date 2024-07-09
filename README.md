@@ -1,14 +1,14 @@
 
 # Login Page
 
-This project is the front-end of a functional login page, developed in Angular and some more libraries from Angular itself were added, such as ngx-toastr and animations.
+Este projeto é o front-end de uma página de login funcional, desenvolvida em Angular e foram adicionadas mais algumas bibliotecas do próprio Angular, como ngx-toastr e animações.
 
-It is complemented with the backend that, through spring security, performs token validations for a valid login.
+É complementado com o backend que, através do spring security, realiza validações de token para um login válido.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/login`. The application will automatically reload if you change any of the source files.
+Execute `ng serve` ou `npm start` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/login`. O aplicativo será recarregado automaticamente se você alterar algum dos arquivos de origem
 
 ## Back-end
 
-The backend of the application is the repository called login-auth-api, just run it locally
+O backend da aplicação é o repositório chamado login-auth-api, basta executá-lo localmente para que as validações de cadastro e login funcionem
